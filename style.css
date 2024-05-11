@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.hover-topBar:hover {
+  color: green;
+}
+
+
+#main-content {
+    position: relative;
+    display: inline-block;
+  }
+
+  #color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(120, 0, 128, 0.8); 
+    z-index: 100;
+  }
+
+  #main-content img {
+    position: relative;
+    z-index: 2; 
+  }
